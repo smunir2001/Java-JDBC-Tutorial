@@ -40,5 +40,14 @@ Java application that intends to use that database.
                 -> Oracle DB
                 -> Source
 ### JDBC Environment Setup
+Setting up Java environment:
+1. Download the latest JDK.
+2. Set Java_Home.
+3. Set Java path.
+
+Setting up MySQL environment:
+1. Download the latest MySQL Workbench.
+2. Extract the file.
+3. Run the Setup file.
 ### Steps to Connect JDBC
 ### JDBC Example
