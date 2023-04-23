@@ -32,6 +32,13 @@ Java application that intends to use that database.
 | CLOB | java.sql.Clob |
 | BLOB | java.sql.Blob |
 ### JDBC Architecture
+    Application
+    -> JDBC API
+        -> JDBC Manager
+            -> JDBC Drivers
+                -> SQL Server
+                -> Oracle DB
+                -> Source
 ### JDBC Environment Setup
 ### Steps to Connect JDBC
 ### JDBC Example
